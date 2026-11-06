@@ -1,6 +1,8 @@
 # Predicting a Stock's Daily Direction from the First Two Hours of Trading
 
-**1st KRX Financial Big Data Competition (2022), finalist · Team Micro-A.N.T** · [한국어](README.ko.md)
+**2nd place overall (Excellence Award), 1st KRX Financial Big Data Competition, Korea Exchange (2022) · Team Micro-A.N.T** · [한국어](README.ko.md)
+
+[Final ranking (DACON)](https://dacon.io/competitions/official/235914/leaderboard) · Coverage: [Etoday](https://www.etoday.co.kr/news/view/2173163), [Maeil Business News](https://www.mk.co.kr/news/stock/10457335)
 
 Using minute-level Korea Exchange (KRX) data from 09:00 to 11:00, we predicted whether each KOSPI stock would **close above its opening price** that day. We engineered features from foreign investor flows, order-book microstructure (spreads, depth, order imbalance, cancellation rates) and intraday trend indicators, then compared six models from logistic regression to CatBoost and a neural network.
 
@@ -114,4 +116,11 @@ The saved outputs are from the original run and match the final presentation. Fo
 Five members: project management and development (2), business development and branding (2), UI and PR (1).
 
 ### My role
-<!-- Fill in: what you were responsible for and what you built -->
+
+I led the project from start to finish as team lead (July–September 2022).
+
+- Defined the research question and built the analysis framework (data, features, models and validation), drawing on my background in economics, finance and machine learning.
+- Wrote the first draft of the competition proposal and took part in every stage of the pipeline, from data processing to model evaluation.
+- Planned the three-month schedule from proposal to finals, assigned roles across the five-person team, and resolved disagreements within the team.
+- Reviewed and revised the final slides and presentation script; a teammate delivered the presentation.
+- After the competition, re-validated the model with an out-of-time split and a baseline comparison, and traced the inflated score to a look-ahead leak.
