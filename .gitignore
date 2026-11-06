@@ -1,0 +1,18 @@
+# KRX 원천 데이터 및 중간 산출물
+일별/
+일중/
+투자자별/
+일중10분데이터/
+data/
+*.csv
+*.zip
+
+# 모델 체크포인트
+*.h5
+catboost_info/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
